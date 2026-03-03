@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36429.23 d17.14
+VisualStudioVersion = 17.14.36429.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateways", "ApiGateways", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
@@ -78,6 +78,94 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PricingService.Tests", "Pricing.Tests\PricingService.Tests.csproj", "{6DE8C644-33B5-4161-BDB9-A26452DD9ACD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductService.Tests", "Product.Tests\ProductService.Tests.csproj", "{C6A90C3F-E579-4243-B24E-7484D80AC70F}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "eureka-server", "D:\eureka-server\", "{D03235B6-6277-4B98-BAAE-68212F5E1032}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_55265"
+		Debug.AspNetCompiler.PhysicalPath = "D:\eureka-server\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55265\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_55265"
+		Release.AspNetCompiler.PhysicalPath = "D:\eureka-server\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55265\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "55265"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "postgres", "postgres", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		D:\postgres\createdatabases.sql = D:\postgres\createdatabases.sql
+		D:\postgres\Dockerfile = D:\postgres\Dockerfile
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "scripts", "D:\scripts\", "{663354EE-3A70-6C56-1D9D-DB8637CD475F}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54854"
+		Debug.AspNetCompiler.PhysicalPath = "D:\scripts\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54854\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54854"
+		Release.AspNetCompiler.PhysicalPath = "D:\scripts\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54854\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54854"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Web", "D:\Web\", "{3B40E31F-B876-691B-8881-6B42A5CF3060}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54862"
+		Debug.AspNetCompiler.PhysicalPath = "D:\Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54862\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54862"
+		Release.AspNetCompiler.PhysicalPath = "D:\Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54862\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54862"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "BlazorWasmClient", "D:\BlazorWasmClient\", "{47A43286-7C9B-1165-2238-B290AB5F8987}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54914"
+		Debug.AspNetCompiler.PhysicalPath = "D:\BlazorWasmClient\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54914\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54914"
+		Release.AspNetCompiler.PhysicalPath = "D:\BlazorWasmClient\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54914\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54914"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgentPortalApiGateway", "D:\AgentPortalApiGateway\AgentPortalApiGateway.csproj", "{E8739320-CED0-4552-4051-26544D2F90CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -193,6 +281,26 @@ Global
 		{C6A90C3F-E579-4243-B24E-7484D80AC70F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6A90C3F-E579-4243-B24E-7484D80AC70F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6A90C3F-E579-4243-B24E-7484D80AC70F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D03235B6-6277-4B98-BAAE-68212F5E1032}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D03235B6-6277-4B98-BAAE-68212F5E1032}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D03235B6-6277-4B98-BAAE-68212F5E1032}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D03235B6-6277-4B98-BAAE-68212F5E1032}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{663354EE-3A70-6C56-1D9D-DB8637CD475F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{663354EE-3A70-6C56-1D9D-DB8637CD475F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{663354EE-3A70-6C56-1D9D-DB8637CD475F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{663354EE-3A70-6C56-1D9D-DB8637CD475F}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{3B40E31F-B876-691B-8881-6B42A5CF3060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B40E31F-B876-691B-8881-6B42A5CF3060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B40E31F-B876-691B-8881-6B42A5CF3060}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B40E31F-B876-691B-8881-6B42A5CF3060}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{47A43286-7C9B-1165-2238-B290AB5F8987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47A43286-7C9B-1165-2238-B290AB5F8987}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47A43286-7C9B-1165-2238-B290AB5F8987}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{47A43286-7C9B-1165-2238-B290AB5F8987}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{E8739320-CED0-4552-4051-26544D2F90CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8739320-CED0-4552-4051-26544D2F90CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8739320-CED0-4552-4051-26544D2F90CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8739320-CED0-4552-4051-26544D2F90CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
