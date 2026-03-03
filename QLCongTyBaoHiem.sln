@@ -97,6 +97,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "eureka-server", "D:\eureka-
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "55265"
+		SlnRelativePath = "D:\eureka-server\"
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "postgres", "postgres", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
@@ -123,6 +124,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "scripts", "D:\scripts\", "{
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "54854"
+		SlnRelativePath = "D:\scripts\"
 	EndProjectSection
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Web", "D:\Web\", "{3B40E31F-B876-691B-8881-6B42A5CF3060}"
@@ -143,6 +145,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Web", "D:\Web\", "{3B40E31F
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "54862"
+		SlnRelativePath = "D:\Web\"
 	EndProjectSection
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "BlazorWasmClient", "D:\BlazorWasmClient\", "{47A43286-7C9B-1165-2238-B290AB5F8987}"
@@ -163,6 +166,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "BlazorWasmClient", "D:\Blaz
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "54914"
+		SlnRelativePath = "D:\BlazorWasmClient\"
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgentPortalApiGateway", "D:\AgentPortalApiGateway\AgentPortalApiGateway.csproj", "{E8739320-CED0-4552-4051-26544D2F90CD}"
