@@ -37,8 +37,9 @@ public class Startup
     {
         app.UseExceptionHandler("/error");
 
-        if (!env.IsDevelopment()) app.UseHsts();
-        
+        if (!env.IsDevelopment())
+            app.UseHsts();
+
         if (env.IsDevelopment())
         {
             app.UseSwagger();
@@ -46,7 +47,12 @@ public class Startup
         }
 
         app.UseRouting();
+
         app.UseHttpsRedirection();
-        app.UseEndpoints(endpoints => endpoints.MapControllers());
+
+        app.UseEndpoints(endpoints =>
+        {
+            endpoints.MapControllers();
+        });
     }
 }

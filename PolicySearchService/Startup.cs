@@ -37,6 +37,7 @@ public class Startup
     public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
     {
         app.UseRouting();
+
         if (env.IsDevelopment())
             app.UseDeveloperExceptionPage();
         else
@@ -47,9 +48,14 @@ public class Startup
             app.UseSwagger();
             app.UseSwaggerUI();
         }
-        
+
         app.UseHttpsRedirection();
+
         app.UseRabbitListeners(new List<Type> { typeof(PolicyCreated) });
-        app.UseEndpoints(endpoints => endpoints.MapControllers());
+
+        app.UseEndpoints(endpoints =>
+        {
+            endpoints.MapControllers();
+        });
     }
 }
