@@ -1,6 +1,0 @@
-@Pricing.Implementation_HostAddress = http://localhost:5052
-
-GET {{Pricing.Implementation_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
